@@ -1,0 +1,32 @@
+{
+  "name": "my_socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.13",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.2",
+    "socket.io-client": "^4.5.4",
+    "typeorm": "^0.3.10"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.17",
+    "typescript": "^4.9.4"
+  }
+}
